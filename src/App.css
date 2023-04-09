@@ -1,0 +1,14 @@
+body {
+  background-color: #e1e8f0 !important;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.main-content {
+  flex: 3;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

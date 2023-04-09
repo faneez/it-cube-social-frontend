@@ -1,0 +1,18 @@
+.homeContainer {
+	margin-left: 40px;
+}
+.writeLink {
+	color: white;
+	padding: 10px;
+	display: inline-block;
+	padding: 10px;
+	background-color: rgb(58, 58, 248);
+	border-radius: 5px;
+	text-decoration: none;
+	align-self: center;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	&:hover {
+		color: white;
+	}
+}
