@@ -35,7 +35,7 @@ function App() {
 	useEffect(() => {
 		dispatch(refreshToken())
 	}, [dispatch])
-
+	console.log(1)
 	return (
 		<div className="App">
 			{auth.token ? <Navbar /> : ""}

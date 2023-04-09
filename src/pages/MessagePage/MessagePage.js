@@ -35,8 +35,10 @@ const MessagePage = () => {
 	useEffect(() => {
 		if (auth?.user?._id) {
 			const IS_PROD = process.env.NODE_ENV === "production"
-			const URL = IS_PROD ? "it-cube-social-backend-production.up.railway.app" : "http://localhost:5000"
-			socket.current = io(URL)
+
+			socket.current = io(
+				"https://it-cube-social-backend-production.up.railway.app"
+			)
 			socket.current.emit("addUser", auth.user._id)
 		}
 	}, [auth.user._id])
