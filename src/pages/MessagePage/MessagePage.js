@@ -37,8 +37,8 @@ const MessagePage = () => {
 			const IS_PROD = process.env.NODE_ENV === "production"
 
 			socket.current = io(
-				// "https://it-cube-social-backend-production.up.railway.app"
-				"https://7026-94-51-38-102.ngrok-free.app"
+				// "https://7026-94-51-38-102.ngrok-free.app"
+				"https://it-cube-social-backend-production.up.railway.app"
 			)
 			socket.current.emit("addUser", auth.user._id)
 		}
