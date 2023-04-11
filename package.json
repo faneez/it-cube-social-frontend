@@ -1,6 +1,7 @@
 {
 	"name": "frontend",
 	"version": "0.1.0",
+	"proxy": "https://7026-94-51-38-102.ngrok-free.app",
 	"private": true,
 	"dependencies": {
 		"@emotion/react": "^11.9.0",
